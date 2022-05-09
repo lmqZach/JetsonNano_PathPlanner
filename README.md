@@ -1,4 +1,4 @@
-# JetsonNano_SLAM
+# JetsonNano_PathPlanner
 ## File Structure
 This projects shares the same ROS Jetson configuration root file from: https://github.com/lmqZach/JetsonNano_PoseEstimation
 
@@ -19,10 +19,9 @@ The new algorithm for this progress file resides under root/navigation_dev/src
   |   |-- msg
   |   |-- src
   |          |-- april_detect.py
-  |          |-- ekf.py
   |          |-- localization_node.py
   |          |-- planner_node.py
-  |          |-- slam_node.py
+  |          |-- VoroniGraph.py
   |-- ros_deep_learning
       |-- ```
 ```
