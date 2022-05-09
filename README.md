@@ -27,22 +27,14 @@ The new algorithm for this progress file resides under root/navigation_dev/src
 ```
 
 ## Objective
-The objective of homework 3 is to implement a version of the Simulta- neous Localization and Mapping (SLAM) technique and evaluate its perfor-
-mance.
+An important part of robotics is path and task planning. In this phase of project, we designed a Voronoi-based path planner using SciPy to auto-navigate through target locations.
 
 ## Detailed Tasks
-1. Setup an environment in a 10ft × 10ft area with landmarks as exemplified in the figure. The landmarks are 9 AprilTags in two types (Tag1 & Tag2) to represent natural objects. 
-<img width="316" alt="Screen Shot 2022-05-09 at 14 51 46" src="https://user-images.githubusercontent.com/92130976/167477552-d68e017e-2707-4283-8045-880b50daf88b.png">
+1. Setup an environment in a 10ft ×10ft area with landmarks at the edges as show in the figure. Measure the position of your landmarks. Place an obstacle of size 1x1 - 2x2 ft in the middle of the workspace. 
 
-2. Implement the KALMAN filter based SLAM system. Use the off-the-shelf software to detect the landmarks.
+2. Design a voronoi based path planner to go from start to the 1st and 2nd stops.
 
-3. Drive through the environment to build up a map in two steps:
-
-    i) Initially drive the robot in a circle
-    
-    ii) Drive through the environment using a figure 8 trajectory.
-    
-5. Compare the difference between the two generated maps.
+3. Provide a report that describes your chosen representation, the associated algorithm, videos/images that document the results. 
 
 # Report
 ## Logistic: 
