@@ -1,6 +1,6 @@
 # JetsonNano_SLAM
 ## File Structure
-This projects shares the same ROS Jetson configuration root file from: https://github.com/lmqZach/JetsonNano_PoseEstimation/blob/master/README.md
+This projects shares the same ROS Jetson configuration root file from: https://github.com/lmqZach/JetsonNano_PoseEstimation
 
 The new algorithm for this progress file resides under root/navigation_dev/src
 ```
